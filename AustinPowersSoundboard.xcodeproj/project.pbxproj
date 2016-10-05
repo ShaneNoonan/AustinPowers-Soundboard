@@ -14,6 +14,14 @@
 		E44F7E321DA55C19008AE8EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E44F7E301DA55C19008AE8EB /* LaunchScreen.storyboard */; };
 		E44F7E3D1DA55C19008AE8EB /* AustinPowersSoundboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44F7E3C1DA55C19008AE8EB /* AustinPowersSoundboardTests.swift */; };
 		E44F7E481DA55C1A008AE8EB /* AustinPowersSoundboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44F7E471DA55C1A008AE8EB /* AustinPowersSoundboardUITests.swift */; };
+		E44F7E581DA55C52008AE8EB /* Groovy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E44F7E571DA55C52008AE8EB /* Groovy.ttf */; };
+		E44F7E5F1DA55C7B008AE8EB /* groovy-baby.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E44F7E591DA55C7B008AE8EB /* groovy-baby.mp3 */; };
+		E44F7E601DA55C7B008AE8EB /* i-ate-a-baby.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E44F7E5A1DA55C7B008AE8EB /* i-ate-a-baby.mp3 */; };
+		E44F7E611DA55C7B008AE8EB /* myself.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E44F7E5B1DA55C7B008AE8EB /* myself.mp3 */; };
+		E44F7E621DA55C7B008AE8EB /* oh-behave.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E44F7E5C1DA55C7B008AE8EB /* oh-behave.mp3 */; };
+		E44F7E631DA55C7B008AE8EB /* smashingbaby.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E44F7E5D1DA55C7B008AE8EB /* smashingbaby.mp3 */; };
+		E44F7E641DA55C7B008AE8EB /* yababy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E44F7E5E1DA55C7B008AE8EB /* yababy.mp3 */; };
+		E44F7E671DA55CD5008AE8EB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E44F7E661DA55CD5008AE8EB /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +55,14 @@
 		E44F7E431DA55C1A008AE8EB /* AustinPowersSoundboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AustinPowersSoundboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E44F7E471DA55C1A008AE8EB /* AustinPowersSoundboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AustinPowersSoundboardUITests.swift; sourceTree = "<group>"; };
 		E44F7E491DA55C1A008AE8EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E44F7E571DA55C52008AE8EB /* Groovy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Groovy.ttf; sourceTree = "<group>"; };
+		E44F7E591DA55C7B008AE8EB /* groovy-baby.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "groovy-baby.mp3"; sourceTree = "<group>"; };
+		E44F7E5A1DA55C7B008AE8EB /* i-ate-a-baby.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "i-ate-a-baby.mp3"; sourceTree = "<group>"; };
+		E44F7E5B1DA55C7B008AE8EB /* myself.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = myself.mp3; sourceTree = "<group>"; };
+		E44F7E5C1DA55C7B008AE8EB /* oh-behave.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "oh-behave.mp3"; sourceTree = "<group>"; };
+		E44F7E5D1DA55C7B008AE8EB /* smashingbaby.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = smashingbaby.mp3; sourceTree = "<group>"; };
+		E44F7E5E1DA55C7B008AE8EB /* yababy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yababy.mp3; sourceTree = "<group>"; };
+		E44F7E661DA55CD5008AE8EB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E44F7E671DA55CD5008AE8EB /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +98,7 @@
 				E44F7E3B1DA55C19008AE8EB /* AustinPowersSoundboardTests */,
 				E44F7E461DA55C1A008AE8EB /* AustinPowersSoundboardUITests */,
 				E44F7E251DA55C19008AE8EB /* Products */,
+				E44F7E651DA55CD5008AE8EB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +115,8 @@
 		E44F7E261DA55C19008AE8EB /* AustinPowersSoundboard */ = {
 			isa = PBXGroup;
 			children = (
+				E44F7E561DA55C43008AE8EB /* Fonts */,
+				E44F7E551DA55C3A008AE8EB /* Sounds */,
 				E44F7E271DA55C19008AE8EB /* AppDelegate.swift */,
 				E44F7E291DA55C19008AE8EB /* ViewController.swift */,
 				E44F7E2B1DA55C19008AE8EB /* Main.storyboard */,
@@ -123,6 +143,35 @@
 				E44F7E491DA55C1A008AE8EB /* Info.plist */,
 			);
 			path = AustinPowersSoundboardUITests;
+			sourceTree = "<group>";
+		};
+		E44F7E551DA55C3A008AE8EB /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				E44F7E591DA55C7B008AE8EB /* groovy-baby.mp3 */,
+				E44F7E5A1DA55C7B008AE8EB /* i-ate-a-baby.mp3 */,
+				E44F7E5B1DA55C7B008AE8EB /* myself.mp3 */,
+				E44F7E5C1DA55C7B008AE8EB /* oh-behave.mp3 */,
+				E44F7E5D1DA55C7B008AE8EB /* smashingbaby.mp3 */,
+				E44F7E5E1DA55C7B008AE8EB /* yababy.mp3 */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		E44F7E561DA55C43008AE8EB /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E44F7E571DA55C52008AE8EB /* Groovy.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		E44F7E651DA55CD5008AE8EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E44F7E661DA55CD5008AE8EB /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +281,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E44F7E581DA55C52008AE8EB /* Groovy.ttf in Resources */,
 				E44F7E321DA55C19008AE8EB /* LaunchScreen.storyboard in Resources */,
+				E44F7E621DA55C7B008AE8EB /* oh-behave.mp3 in Resources */,
+				E44F7E5F1DA55C7B008AE8EB /* groovy-baby.mp3 in Resources */,
+				E44F7E631DA55C7B008AE8EB /* smashingbaby.mp3 in Resources */,
+				E44F7E611DA55C7B008AE8EB /* myself.mp3 in Resources */,
 				E44F7E2F1DA55C19008AE8EB /* Assets.xcassets in Resources */,
 				E44F7E2D1DA55C19008AE8EB /* Main.storyboard in Resources */,
+				E44F7E641DA55C7B008AE8EB /* yababy.mp3 in Resources */,
+				E44F7E601DA55C7B008AE8EB /* i-ate-a-baby.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
