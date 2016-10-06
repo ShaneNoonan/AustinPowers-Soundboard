@@ -5,6 +5,11 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Groovy.ttf">
+            <string>GroovyBaby</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -17,11 +22,92 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="starbackground" translatesAutoresizingMaskIntoConstraints="NO" id="aIN-I2-zHL"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="austinpowers" translatesAutoresizingMaskIntoConstraints="NO" id="Wvs-c5-DfF">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="cFv-To-yad"/>
+                                    <constraint firstAttribute="height" constant="150" id="dyY-Lp-86H"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="UgB-gB-87H">
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZQC-4D-Vn1">
+                                        <fontDescription key="fontDescription" name="GroovyBaby" family="Groovy Baby" pointSize="20"/>
+                                        <state key="normal" title="YEA BABY!">
+                                            <color key="titleColor" red="0.80168527364730835" green="0.77461713552474976" blue="0.023360524326562881" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xmH-Up-GM5"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rfd-xf-7eL">
+                                        <fontDescription key="fontDescription" name="GroovyBaby" family="Groovy Baby" pointSize="20"/>
+                                        <state key="normal" title="SMASHING BABY!">
+                                            <color key="titleColor" red="0.80168527364730835" green="0.77461713552474976" blue="0.023360524326562881" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="u9d-w4-rcM"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ysH-6k-vzn">
+                                        <fontDescription key="fontDescription" name="GroovyBaby" family="Groovy Baby" pointSize="20"/>
+                                        <state key="normal" title="MYSELF">
+                                            <color key="titleColor" red="0.80168527364730835" green="0.77461713552474976" blue="0.023360524326562881" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CzF-eB-etQ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w8f-od-j3u">
+                                        <fontDescription key="fontDescription" name="GroovyBaby" family="Groovy Baby" pointSize="20"/>
+                                        <state key="normal" title="GROOVY BABY!">
+                                            <color key="titleColor" red="0.80168527364730835" green="0.77461713552474976" blue="0.023360524326562881" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3LF-9c-uCJ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3gJ-Ch-je0">
+                                        <fontDescription key="fontDescription" name="GroovyBaby" family="Groovy Baby" pointSize="20"/>
+                                        <state key="normal" title="OH BEHAVE!">
+                                            <color key="titleColor" red="0.80168527364730835" green="0.77461713552474976" blue="0.023360524326562881" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w8W-hF-pfm"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kpd-Dj-f6m">
+                                        <fontDescription key="fontDescription" name="GroovyBaby" family="Groovy Baby" pointSize="20"/>
+                                        <state key="normal" title="I ATE A BABY!">
+                                            <color key="titleColor" red="0.80168527364730835" green="0.77461713552474976" blue="0.023360524326562881" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fnw-er-vJk"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="UgB-gB-87H" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8oO-Gk-QKF"/>
+                            <constraint firstItem="Wvs-c5-DfF" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="15" id="Dzh-4l-rmJ"/>
+                            <constraint firstAttribute="trailing" secondItem="aIN-I2-zHL" secondAttribute="trailing" id="Edd-x5-0re"/>
+                            <constraint firstItem="UgB-gB-87H" firstAttribute="top" secondItem="Wvs-c5-DfF" secondAttribute="bottom" constant="15" id="cQ7-hx-M2V"/>
+                            <constraint firstItem="Wvs-c5-DfF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="d2d-Wo-xeC"/>
+                            <constraint firstItem="aIN-I2-zHL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="gsa-EZ-GuL"/>
+                            <constraint firstItem="aIN-I2-zHL" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="pbE-Jm-gGc"/>
+                            <constraint firstAttribute="bottom" secondItem="aIN-I2-zHL" secondAttribute="bottom" id="v7y-ln-dPg"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="austinpowers" width="78" height="58"/>
+        <image name="starbackground" width="455" height="256"/>
+    </resources>
 </document>
