@@ -30,10 +30,10 @@
                                     <constraint firstAttribute="height" constant="150" id="dyY-Lp-86H"/>
                                 </constraints>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="UgB-gB-87H">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="UgB-gB-87H">
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZQC-4D-Vn1">
-                                        <fontDescription key="fontDescription" name="GroovyBaby" family="Groovy Baby" pointSize="20"/>
+                                        <fontDescription key="fontDescription" name="GroovyBaby" family="Groovy Baby" pointSize="25"/>
                                         <state key="normal" title="YEA BABY!">
                                             <color key="titleColor" red="0.80168527364730835" green="0.77461713552474976" blue="0.023360524326562881" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
@@ -42,7 +42,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rfd-xf-7eL">
-                                        <fontDescription key="fontDescription" name="GroovyBaby" family="Groovy Baby" pointSize="20"/>
+                                        <fontDescription key="fontDescription" name="GroovyBaby" family="Groovy Baby" pointSize="25"/>
                                         <state key="normal" title="SMASHING BABY!">
                                             <color key="titleColor" red="0.80168527364730835" green="0.77461713552474976" blue="0.023360524326562881" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
@@ -51,7 +51,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ysH-6k-vzn">
-                                        <fontDescription key="fontDescription" name="GroovyBaby" family="Groovy Baby" pointSize="20"/>
+                                        <fontDescription key="fontDescription" name="GroovyBaby" family="Groovy Baby" pointSize="25"/>
                                         <state key="normal" title="MYSELF">
                                             <color key="titleColor" red="0.80168527364730835" green="0.77461713552474976" blue="0.023360524326562881" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
@@ -60,7 +60,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w8f-od-j3u">
-                                        <fontDescription key="fontDescription" name="GroovyBaby" family="Groovy Baby" pointSize="20"/>
+                                        <fontDescription key="fontDescription" name="GroovyBaby" family="Groovy Baby" pointSize="25"/>
                                         <state key="normal" title="GROOVY BABY!">
                                             <color key="titleColor" red="0.80168527364730835" green="0.77461713552474976" blue="0.023360524326562881" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
@@ -69,7 +69,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3gJ-Ch-je0">
-                                        <fontDescription key="fontDescription" name="GroovyBaby" family="Groovy Baby" pointSize="20"/>
+                                        <fontDescription key="fontDescription" name="GroovyBaby" family="Groovy Baby" pointSize="25"/>
                                         <state key="normal" title="OH BEHAVE!">
                                             <color key="titleColor" red="0.80168527364730835" green="0.77461713552474976" blue="0.023360524326562881" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
@@ -78,7 +78,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kpd-Dj-f6m">
-                                        <fontDescription key="fontDescription" name="GroovyBaby" family="Groovy Baby" pointSize="20"/>
+                                        <fontDescription key="fontDescription" name="GroovyBaby" family="Groovy Baby" pointSize="25"/>
                                         <state key="normal" title="I ATE A BABY!">
                                             <color key="titleColor" red="0.80168527364730835" green="0.77461713552474976" blue="0.023360524326562881" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
@@ -96,6 +96,7 @@
                             <constraint firstAttribute="trailing" secondItem="aIN-I2-zHL" secondAttribute="trailing" id="Edd-x5-0re"/>
                             <constraint firstItem="UgB-gB-87H" firstAttribute="top" secondItem="Wvs-c5-DfF" secondAttribute="bottom" constant="15" id="cQ7-hx-M2V"/>
                             <constraint firstItem="Wvs-c5-DfF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="d2d-Wo-xeC"/>
+                            <constraint firstAttribute="bottom" secondItem="UgB-gB-87H" secondAttribute="bottom" constant="15" id="eQi-2J-UBj"/>
                             <constraint firstItem="aIN-I2-zHL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="gsa-EZ-GuL"/>
                             <constraint firstItem="aIN-I2-zHL" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="pbE-Jm-gGc"/>
                             <constraint firstAttribute="bottom" secondItem="aIN-I2-zHL" secondAttribute="bottom" id="v7y-ln-dPg"/>
